@@ -1,0 +1,210 @@
+@import "https://fonts.googleapis.com/css?family=Tangerine";
+
+header {
+  position: fixed;
+  top: 0;
+  min-height: 7px;
+  padding: 0px 20px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #eee;
+  width: 100%;
+}
+
+.wrapper {
+width: 100%;
+Max-width: px;
+padding: 0 10px;
+margin: 0 auto:
+
+}
+
+h1 {
+  font-family: Tangerine;
+  font-size: 2.7em;
+  position: relative;
+  left: 60px;
+  display: flex;
+  justify-content: space-around;
+  
+}
+
+.logo {
+background-repeat: no-repeat;
+width: 100px;
+float: left;
+text-indent: 100px;
+}
+
+.logo img {
+  float: left;
+  background-repeat: no-repeat;
+  margin: 10px 0px 0px -305px;
+  width: 100px;
+  height: 50px;
+  position: relative;
+}
+
+.description {
+  font-family: sans-serif;
+  font-size: 1em;
+  margin: 35px 0px 0px 0
+    200px;
+  text-align: right;
+}
+
+.nav-bar {
+  font-weight: 200px;
+  float: right;
+  width: 100%;
+  margin-top: 0;
+  margin-right: 0;
+  
+}
+
+header nav {
+  font-weight: 600;
+  weight: 100%;
+}
+
+header nav ul {
+  width: 20vw; 
+  justify-content: space-between;
+  display: flex;
+  flex-direction: row; 
+  margin: 0px 0px 0px 00px; 
+  list-style: none; 
+ text-decoration: none;
+}
+
+
+header nav li a {
+  color: pink;
+  font-size: 1.5em;
+  text-decoration: none;
+  text-align: right;
+}
+
+a:hover {
+  color: #FF60B6;
+}
+
+main{
+background-color: grey;
+}
+.intro {
+  text-align: center;
+  padding: 30px;
+  margin: 100px 300px 30px 60px;
+  background-color: pink;
+}
+
+.email {
+  width: 150px;
+  height: 40px;
+  padding: 60 100px;
+  font-size: 0.7em;
+  font-weight: 90;
+  text-transform: lowercase;
+  border: 2px black solid;
+  border-radius: 2px; 
+  text-align: center;
+}
+
+.button {
+  padding: 0 10px;
+  height: 40px;
+  font-size: 1em;
+  font-weight: 90;
+  text-transform: uppercase;
+  border: 2px black solid;
+  border-color: white;
+  border-radius: 2px;
+  background: #F104;
+  cursor: pointer;
+  
+}
+.video {
+  direction: flex;
+  justify-content: space-around;
+}
+
+.weaves101 { 
+ margins: 10px 10px 10px 10px;
+}
+
+img {
+  max-width: 
+}
+
+
+img{
+  max-width: 100%;
+  height: auto;
+}
+
+.wave {
+  max-width: 30%;
+  height: auto;
+}
+
+
+.straight {
+  max-width: 30%;
+  height: auto; 
+}
+
+.closure {
+  max-width: 30%;
+  height: auto;
+ 
+}
+
+
+}
+
+.lace_closure {
+  max-width: 30%;
+  height: auto;
+}
+
+.big_frontal {
+  max-width: 60%;
+  height: auto;
+}
+
+.wig {
+  max-width: 40%;
+  height: auto;
+}
+
+footer {
+  background-color: grey;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+  padding: 30px 10px 30px 0px;
+  text-align: center;  
+}
+
+.contacts: a{
+  font-size: 0.9em;
+  text-decoration: none;
+  color: hotpink;
+}
+
+@media (max-width: 1650px) {
+  nav {
+    margin-top: 10px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 0 50px;
+  }
+  nav li {
+    padding-bottom: 5px;
+  }
+}
